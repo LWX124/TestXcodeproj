@@ -1,0 +1,25 @@
+{
+  "name": "Pod1",
+  "summary": "Test Xcodeproj",
+  "homepage": "https://github.com/LWX124",
+  "license": "Private",
+  "authors": "lwx",
+  "version": "1.0",
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": [
+    "Pod1/**/*.{h,m}"
+  ],
+  "subspecs": [
+    {
+      "name": "test",
+      "source_files": [
+        "Pod1/Test/*.{h,m}"
+      ]
+    }
+  ]
+}

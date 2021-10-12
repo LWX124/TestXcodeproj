@@ -1,0 +1,18 @@
+PODS:
+  - Pod1 (1.0):
+    - Pod1/test (= 1.0)
+  - Pod1/test (1.0)
+
+DEPENDENCIES:
+  - Pod1 (from `Pod1`)
+
+EXTERNAL SOURCES:
+  Pod1:
+    :path: Pod1
+
+SPEC CHECKSUMS:
+  Pod1: e84242b42b6db9f6c3c26d592500d2a77b584ae3
+
+PODFILE CHECKSUM: f0932cdf7b0492b9ef4ea5048945ece635134fc6
+
+COCOAPODS: 1.11.2
